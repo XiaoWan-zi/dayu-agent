@@ -373,7 +373,7 @@ Linux 仍保留在线安装、源码安装、锁文件 smoke 与 CI 平台验证
 
 1. 构建项目 wheel
 2. 基于对应平台的 `constraints/lock-<platform>-py311.txt` 构建离线安装包
-3. 运行 [utils/smoke_test_offline_bundle.py](</Users/leo/workspace/dayu-agent/utils/smoke_test_offline_bundle.py>) 做干净虚拟环境 smoke
+3. 运行 [utils/smoke_test_offline_bundle.py](</Users/leo/workspace/dayu-agent/utils/smoke_test_offline_bundle.py>) 做干净虚拟环境 smoke，覆盖 `dayu-cli` / `dayu-wechat` / `dayu-render`
 
 示例中的 `dist/offline` 可以按需替换成别的输出目录。
 
